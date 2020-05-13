@@ -60,6 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
+
         <Button
             android:id="@+id/button_00"
             android:layout_width="120dp"
@@ -73,16 +74,15 @@
             android:layout_marginEnd="7dp"
             android:layout_marginRight="7dp"
             android:layout_marginBottom="7dp"
-            android:textStyle="bold"
-            android:textColor="@color/colorAccent"
             android:background="@drawable/btn_rounded"
             android:elevation="20dp"
             android:ellipsize="middle"
             android:outlineSpotShadowColor="#000000"
             android:shadowColor="#0B0B0B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorAccent"
             android:textSize="48sp"
-            android:translationZ="10dp"
+            android:translationZ="20dp"
             tools:ignore="Suspicious0dp" />
 
         <Button
@@ -106,8 +106,7 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
             android:textColor="@color/colorAccent"
             android:textSize="48sp"
-            android:textStyle="bold"
-            android:translationZ="10dp"
+            android:translationZ="20dp"
             tools:ignore="Suspicious0dp" />
 
         <Button
@@ -127,11 +126,11 @@
             android:elevation="20dp"
             android:ellipsize="middle"
             android:outlineSpotShadowColor="#000000"
-            android:textColor="@color/colorAccent"
             android:shadowColor="#0B0B0B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorAccent"
             android:textSize="48sp"
-            android:translationZ="10dp"
+            android:translationZ="20dp"
             tools:ignore="Suspicious0dp" />
     </LinearLayout>
     <LinearLayout
@@ -155,14 +154,16 @@
             android:layout_marginBottom="7dp"
             android:background="@drawable/btn_rounded"
             android:elevation="20dp"
-            android:textColor="@color/colorAccent"
             android:ellipsize="middle"
             android:outlineSpotShadowColor="#000000"
             android:shadowColor="#0B0B0B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorAccent"
             android:textSize="48sp"
-            android:translationZ="10dp"
+            android:textStyle="bold"
+            android:translationZ="20dp"
             tools:ignore="Suspicious0dp"/>
+
         <Button
             android:id="@+id/button_11"
             android:layout_width="120dp"
@@ -179,13 +180,14 @@
             android:background="@drawable/btn_rounded"
             android:elevation="20dp"
             android:ellipsize="middle"
-            android:textColor="@color/colorAccent"
             android:outlineSpotShadowColor="#000000"
             android:shadowColor="#0B0B0B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorAccent"
             android:textSize="48sp"
-            android:translationZ="10dp"
+            android:translationZ="20dp"
             tools:ignore="Suspicious0dp" />
+
         <Button
             android:id="@+id/button_12"
             android:layout_width="120dp"
@@ -200,20 +202,21 @@
             android:layout_marginRight="7dp"
             android:layout_marginBottom="7dp"
             android:background="@drawable/btn_rounded"
-            android:elevation="40dp"
+            android:elevation="20dp"
             android:ellipsize="middle"
             android:outlineSpotShadowColor="#000000"
-            android:textColor="@color/colorAccent"
             android:shadowColor="#0B0B0B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="96sp"
-            android:translationZ="10dp"
+            android:textColor="@color/colorAccent"
+            android:textSize="48sp"
+            android:translationZ="20dp"
             tools:ignore="Suspicious0dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1">
+
         <Button
             android:id="@+id/button_20"
             android:layout_width="120dp"
@@ -232,11 +235,12 @@
             android:ellipsize="middle"
             android:outlineSpotShadowColor="#000000"
             android:shadowColor="#0B0B0B"
-            android:textColor="@color/colorAccent"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/colorAccent"
             android:textSize="48sp"
-            android:translationZ="10dp"
-            tools:ignore="Suspicious0dp"/>
+            android:translationZ="20dp"
+            tools:ignore="Suspicious0dp" />
+
         <Button
             android:id="@+id/button_21"
             android:layout_width="120dp"
@@ -256,10 +260,11 @@
             android:outlineSpotShadowColor="#000000"
             android:shadowColor="#0B0B0B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="48sp"
-            android:translationZ="10dp"
             android:textColor="@color/colorAccent"
+            android:textSize="48sp"
+            android:translationZ="20dp"
             tools:ignore="Suspicious0dp" />
+
         <Button
             android:id="@+id/button_22"
             android:layout_width="120dp"
@@ -279,9 +284,9 @@
             android:outlineSpotShadowColor="#000000"
             android:shadowColor="#0B0B0B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="48sp"
             android:textColor="@color/colorAccent"
-            android:translationZ="10dp"
+            android:textSize="48sp"
+            android:translationZ="20dp"
             tools:ignore="Suspicious0dp" />
     </LinearLayout>
 </LinearLayout>
