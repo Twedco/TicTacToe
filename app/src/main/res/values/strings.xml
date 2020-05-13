@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TicTac Toe</string>
+    <string name="button_reset">"GAME RESET"</string>
+    <string name="button_00">" "</string>
+    <string name="button_01">" "</string>
+    <string name="button_02">" "</string>
+    <string name="button_10">" "</string>
+    <string name="button_11">" "</string>
+    <string name="button_12">" "</string>
+    <string name="button_20">" "</string>
+    <string name="button_21">" "</string>
+    <string name="button_22">" "</string>
+
+</resources>
