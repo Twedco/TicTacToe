@@ -56,9 +56,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             } else {
                 player2Wins();
             }
-        } else if (roundCount == 9) {
+        }
+        else if (roundCount == 9) {
             draw();
-        } else {
+        }
+        else {
             player1Turn = !player1Turn;
         }
     }
@@ -74,24 +76,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     && field[i][0].equals(field[i][2])
                     && !field[i][0].equals("")) {
                 return true;
-            }
-        }
-        for (int i = 0; i < 3; i++) {
-            if (field[0][i].equals(field[1][i])
+            } else if (field[0][i].equals(field[1][i])
                     && field[0][i].equals(field[2][i])
                     && !field[0][i].equals("")) {
                 return true;
+            } else if (field[0][0].equals(field[1][1])
+                    && field[0][0].equals(field[2][2])
+                    && !field[0][0].equals("")) {
+                return true;
+            } else if (field[0][2].equals(field[1][1])
+                    && field[0][2].equals(field[2][0])
+                    && !field[0][2].equals("")) {
+                return true;
             }
-        }
-        if (field[0][0].equals(field[1][1])
-                && field[0][0].equals(field[2][2])
-                && !field[0][0].equals("")) {
-            return true;
-        }
-        if (field[0][2].equals(field[1][1])
-                && field[0][2].equals(field[2][0])
-                && !field[0][2].equals("")) {
-            return true;
         }
         return false;
     }
@@ -112,8 +109,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         resetBoard();
     }
     private void updatePointsText() {
-        textViewPlayer1.setText(player1Points);
-        textViewPlayer2.setText(player2Points);
+        textViewPlayer1.setText("P1:" +player1Points);
+        textViewPlayer2.setText("P2:" +player2Points);
     }
     private void resetBoard() {
         for (int i = 0; i < 3; i++) {
