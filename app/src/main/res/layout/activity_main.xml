@@ -206,7 +206,7 @@
             android:textColor="@color/colorAccent"
             android:shadowColor="#0B0B0B"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-            android:textSize="96sp"
+            android:textSize="48dp"
             android:translationZ="10dp"
             tools:ignore="Suspicious0dp" />
     </LinearLayout>
